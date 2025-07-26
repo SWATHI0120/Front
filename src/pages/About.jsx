@@ -5,7 +5,18 @@ import '../styles/education.css'; // Make sure this file exists
 
 const About = () => {
   return (
+    
     <section id="about" className="section">
+           <div className="resume-button-wrapper">
+  <button
+    className="resume-btn"
+    onClick={() =>
+      window.open("https://drive.google.com/file/d/1mYtjvV4VbCbIRq5uN2we46vX_OuyNRGT/view?usp=sharing", "_blank")
+    }
+  >
+    View My Resume
+  </button>
+</div>
       <div class="about-box">
       <h2>About Me</h2>
       <p>

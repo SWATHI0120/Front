@@ -5,25 +5,26 @@ const codingPlatforms = [
   {
     name: 'LeetCode',
     icon: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png',
-    problemsSolved: 520,
-    rank: 'Top 3%',
+    problemsSolved: 46,
+    rank: '111,169',
     batch: '2025',
-    link: 'https://leetcode.com/your-username',
+    link: 'https://leetcode.com/u/swathi00123/',
   },
   {
     name: 'CodeChef',
-     icon: 'https://assets.streamlinehq.com/image/private/f_auto/v1/icons/logos/codechef--31088.png', 
+     icon: 'https://latestlogo.com/wp-content/uploads/2024/09/codechef.png', 
+      problemsSolved: 100,
     rank: '3-star',
     batch: '2025',
-    link: 'https://www.codechef.com/users/your-handle',
+    link: 'https://www.codechef.com/users/swathi0120',
   },
   {
     name: 'HackerRank',
     icon: 'https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png',
-    problemsSolved: 150,
+    problemsSolved: 100,
     rank: 'Gold',
     batch: '2025',
-    link: 'https://www.hackerrank.com/your-profile',
+    link: 'https://www.hackerrank.com/profile/swathi_n2023it',
   },
   {
     name: 'GeeksforGeeks',
@@ -35,11 +36,11 @@ const codingPlatforms = [
   },
   {
     name: 'SkillRack',
-    icon: 'https://skillrack.com/images/sr-logo.png',
-    problemsSolved: 320,
+    icon: 'https://cdn.skillrack.com/img/logo.gif',
+    problemsSolved: 334,
     rank: 'Level 6',
     batch: '2025',
-    link: 'https://skillrack.com/faces/main.xhtml',
+    link: 'https://www.skillrack.com/faces/resume.xhtml?id=484664&key=a61fcf01922240b7667029f67760d6ed66016335',
   },
 ];
 

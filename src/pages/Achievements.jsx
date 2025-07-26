@@ -3,58 +3,34 @@ import "../styles/Achievements.css"; // Make sure the path is correct
 
 const achievements = [
   {
-    name: "Hackathon 2024",
+    name: "Portfolio Fest 2024",
     rank: "Second Place",
     year: "2024",
     certificateUrl: "https://example.com/hackathon-certificate.pdf",
   },
   {
-    name: "CodeFest Challenge",
-    rank: "Third Place",
+    name: "Data Structures and Alogorithm",
+    Platform: "Udemy",
     year: "2023",
-    certificateUrl: "https://example.com/codefest-certificate.pdf",
+    certificateUrl: "https://drive.google.com/file/d/1YZ3PvTbFXLGUxITW3IwkxOJqS1gGnHZS/view?usp=sharing",
   },
   {
-    name: "Frontend Mastery",
-    rank: "Certified",
-    year: "2025",
-    certificateUrl: "https://example.com/frontend-certificate.pdf",
+    name: "Java programming",
+    Platform: "Udemy",
+    year: "2024",
+    certificateUrl: "https://drive.google.com/file/d/1I3A_7ZE1YQrd-XrenA-9RhBzbLQO_FNg/view?usp=sharing",
   },
    {
-    name: "Frontend Mastery",
-    rank: "Certified",
-    year: "2025",
-    certificateUrl: "https://example.com/frontend-certificate.pdf",
+    name: "Introduction to DataScience",
+    Platform: "simplilearn",
+    year: "2024",
+    certificateUrl: "https://drive.google.com/file/d/11asXFPDZYh_5WEuWZOueiJHilWXBH9Fo/view?usp=sharing",
   },
    {
-    name: "Frontend Mastery",
-    rank: "Certified",
-    year: "2025",
-    certificateUrl: "https://example.com/frontend-certificate.pdf",
-  },
-   {
-    name: "Frontend Mastery",
-    rank: "Certified",
-    year: "2025",
-    certificateUrl: "https://example.com/frontend-certificate.pdf",
-  },
-   {
-    name: "Frontend Mastery",
-    rank: "Certified",
-    year: "2025",
-    certificateUrl: "https://example.com/frontend-certificate.pdf",
-  },
-   {
-    name: "Frontend Mastery",
-    rank: "Certified",
-    year: "2025",
-    certificateUrl: "https://example.com/frontend-certificate.pdf",
-  },
-   {
-    name: "Frontend Mastery",
-    rank: "Certified",
-    year: "2025",
-    certificateUrl: "https://example.com/frontend-certificate.pdf",
+    name: "Python",
+    Platform: "Guvi",
+    year: "2024",
+    certificateUrl: "https://drive.google.com/file/d/1DbQLLuJhNq8FBjoMucEw8tRKmUEbQmqs/view?usp=sharing",
   },
 ];
 
@@ -67,6 +43,7 @@ const Achievements = () => {
           <div key={index} className="achievement-card">
             <h3 className="achievement-name">{item.name}</h3>
             <p className="achievement-rank">{item.rank}</p>
+             <p className="achievement-rank">{item.Platform}</p>
             <p className="achievement-year">{item.year}</p>
             <a
               href={item.certificateUrl}

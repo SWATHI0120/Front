@@ -52,8 +52,13 @@ const SocialIcons = () => {
             </button>
           </div>
         )}
+ 
+
       </div>
+      
     </div>
+   
+    
   );
 };
 

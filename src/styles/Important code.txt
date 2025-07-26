@@ -1,5 +1,9 @@
   background: linear-gradient(135deg, #670482, #424141, #b70a61);  
 
+//sevice id
+//  service_ugfy1xg
+//service_qudvla6
+
 
   //projectcard.css 
   .project-grid {

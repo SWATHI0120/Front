@@ -1,7 +1,6 @@
 .skills-section {
   padding: 4rem 2rem;
   color: #fff;
- 
   
 }
 
@@ -42,7 +41,7 @@
 
 .skill-box {
   /* background: #1e1e2f; */
-  background: linear-gradient(135deg, #4b0c40, #31071f);
+   background: linear-gradient(135deg, #684970, #794787);
   color: #f4f4f4;
   border-radius: 16px;
   padding: 1.5rem;

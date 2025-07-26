@@ -13,7 +13,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #4d0860, #333232, #76046d);
+    background: linear-gradient(135deg, #2e033b, #333232,  #270531);
+  /* background: linear-gradient(135deg, #4d0860, #333232, #76046d); */
   color: #f4f4f4;
   scroll-behavior: smooth;
   min-height: 100vh;

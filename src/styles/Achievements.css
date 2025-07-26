@@ -19,12 +19,12 @@
 }
 
 .achievement-card {
-  background-color: rgba(255, 255, 255, 0.1);
+   background: linear-gradient(135deg, #9883a2, #8d8790);
   border: 2px solid #fff;
   border-radius: 16px;
   padding: 20px;
   width: 100%;
-  max-width: 320px;
+  max-width: 300px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }

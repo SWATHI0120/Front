@@ -44,7 +44,7 @@ const skillSections = [
   {
     title: 'Design',
     icon: <MdDesignServices />, // ✅ Using Material Design icon
-    skills: ['Figma', 'Canva'],
+    skills: ['Figma', 'Canva','Photoshop','Adobe XD'],
   },
     {
     title: 'UI',
