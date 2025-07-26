@@ -2,7 +2,7 @@
 import React from 'react';
 // import '../styles/hero.css';
 import profile from '../assets/photo.jpg';
-import MernStack from '../assets/Mern-stack-.png';
+// import MernStack from '../assets/Mern-stack-.png';
 
 const Hero = () => {
   return (
