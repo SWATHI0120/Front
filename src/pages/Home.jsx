@@ -1,6 +1,6 @@
 // src/pages/Home.jsx
 import React from 'react';
-// import '../styles/hero.css';
+import '../styles/Hero.css';
 import profile from '../assets/photo.jpg';
 // import MernStack from '../assets/Mern-stack-.png';
 
