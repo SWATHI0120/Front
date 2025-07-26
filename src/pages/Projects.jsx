@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import img1 from "../assets/Project portfolio.png";
-import img2 from "../assets/Fresh mart.png";
+import img2 from "../assets/fresh mart.png";
 import img3 from "../assets/Expensetracker.png";
 import img4 from "../assets/Eventproject.png";
 
