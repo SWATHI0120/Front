@@ -7,23 +7,23 @@ const codingPlatforms = [
     icon: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png',
     problemsSolved: 46,
     rank: '111,169',
-    // batch: '2025',
+    batch: '2025',
     link: 'https://leetcode.com/u/swathi00123/',
   },
   {
     name: 'CodeChef',
      icon: 'https://latestlogo.com/wp-content/uploads/2024/09/codechef.png', 
       problemsSolved: 100,
-    // rank: '3-star',
-    // batch: '2025',
+    rank: '3-star',
+    batch: '2025',
     link: 'https://www.codechef.com/users/swathi0120',
   },
   {
     name: 'HackerRank',
     icon: 'https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png',
     problemsSolved: 100,
-    // rank: 'Gold',
-    // batch: '2025',
+    rank: 'Gold',
+    batch: '2025',
     link: 'https://www.hackerrank.com/profile/swathi_n2023it',
   },
   // {
@@ -57,8 +57,8 @@ const CodingPlatforms = () => {
             <h3 className="platform-name">{platform.name}</h3>
             <ul className="platform-stats">
               <li><strong>Problems Solved:</strong> {platform.problemsSolved}</li>
-              <li><strong>Rank:</strong> {platform.rank}</li>
-              <li><strong>Badge:</strong> {platform.batch}</li>
+              {/* <li><strong>Rank:</strong> {platform.rank}</li>
+              <li><strong>Badge:</strong> {platform.batch}</li> */}
             </ul>
             <a
               href={platform.link}
