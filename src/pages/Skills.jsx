@@ -14,28 +14,28 @@ const skillSections = [
   {
     title: 'Programming Languages',
     icon: <FaCode />,
-    skills: ['C++', 'Python', 'JavaScript', 'Dart'],
+    skills: ['C', 'C++', 'Python', 'JavaScript'],
   },
   {
     title: 'Tools',
     icon: <FaTools />,
-    skills: ['VS Code', 'Android Studio', 'Postman'],
+    skills: ['VS Code', 'Postman'],
   },
   {
     title: 'Framework/Library',
     icon: <FaProjectDiagram />,
-    skills: ['Flutter', 'React', 'NodeJS'],
+    skills: ['React', 'NodeJS','Express'],
   },
   {
     title: 'Database',
     icon: <FaDatabase />,
-    skills: ['Firebase', 'MongoDB', 'MySQL'],
+    skills: [ 'MongoDB', 'MySQL'],
   },
-  {
-    title: 'Architecture',
-    icon: <FaCogs />,
-    skills: ['BLoC (Business Logic Component)', 'Clean Architecture'],
-  },
+  // {
+  //   title: 'Architecture',
+  //   icon: <FaCogs />,
+  //   skills: ['BLoC (Business Logic Component)', 'Clean Architecture'],
+  // },
   {
     title: 'CI/CD',
     icon: <FaMobileAlt />,
@@ -44,13 +44,9 @@ const skillSections = [
   {
     title: 'Design',
     icon: <MdDesignServices />, // ✅ Using Material Design icon
-    skills: ['Figma', 'Canva','Photoshop','Adobe XD'],
+    skills: ['Figma', 'Canva'],
   },
-    {
-    title: 'UI',
-    icon: <FaCogs />,
-    skills: ['BLoC (Business Logic Component)', 'Clean Architecture'],
-  },
+   
 ];
 
 const Skills = () => {

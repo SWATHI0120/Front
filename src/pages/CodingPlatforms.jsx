@@ -26,14 +26,14 @@ const codingPlatforms = [
     batch: '2025',
     link: 'https://www.hackerrank.com/profile/swathi_n2023it',
   },
-  {
-    name: 'GeeksforGeeks',
-    icon: 'https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg',
-    problemsSolved: 280,
-    rank: '3-star',
-    batch: '2025',
-    link: 'https://auth.geeksforgeeks.org/user/your-profile',
-  },
+  // {
+  //   name: 'GeeksforGeeks',
+  //   icon: 'https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg',
+  //   problemsSolved: 280,
+  //   rank: '3-star',
+  //   batch: '2025',
+  //   link: 'https://auth.geeksforgeeks.org/user/your-profile',
+  // },
   {
     name: 'SkillRack',
     icon: 'https://cdn.skillrack.com/img/logo.gif',
